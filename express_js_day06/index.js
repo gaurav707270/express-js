@@ -3,22 +3,27 @@ import path from "path"
 
 const app = express();
 
+const absPath = path.resolve("pages")
+
 app.get("/", (req, res) => {
-    const absHomePath = path.resolve("pages/home.html")
-    res.sendFile(absHomePath)
-    console.log(absHomePath)
+    
+    res.sendFile(absPath + "/home.html")
+    console.log(absPath)
 })
 
 app.get("/login",(req,res) =>{
 
-    const absLoginPath = path.resolve("pages/login.html")
 
-    res.sendFile(absLoginPath)
+    res.sendFile(absPath + "/login.html")
 })
 
 app.get("/about",(req,res) =>{
-    const absAboutPath = path.resolve("pages/about.html");
-    res.sendFile(absAboutPath)
+    res.sendFile(absPath + "/about.html")
+})
+
+app.use((req,res) =>{
+    res.status(404).sendFile(absPath + "/404.Html")
+
 })
 
 app.listen(3000)

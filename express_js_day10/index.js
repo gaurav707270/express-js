@@ -26,7 +26,7 @@ app.get("/api", async (req, res) => {
 
     const db = client.db(dbName);
     const collection = db.collection("post");
-+
+
     const result = await collection.find().toArray();
 
     console.log(typeof (result));

@@ -34,6 +34,10 @@ app.get("/", async (req, res) => {
     });
 });
 
+app.delete("/delete/:id",(req,res) =>{
+    
+})
+
 app.listen(3500, () => {
     console.log("Server running at http://localhost:3500");
 });

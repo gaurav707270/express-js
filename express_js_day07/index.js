@@ -4,7 +4,7 @@ const app = express();
 
 const checkAge = (req,res,next) =>{
 if (!req.query.age || req.query.age<18){
-    res.send("you cant access this is page")
+    // res.send("you cant access this is page")
 }
 else{
     next()

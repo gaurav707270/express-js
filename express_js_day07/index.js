@@ -1,6 +1,6 @@
 import express from "express";
 
-// const app = express();
+const app = express();
 
 const checkAge = (req,res,next) =>{
 if (!req.query.age || req.query.age<18){

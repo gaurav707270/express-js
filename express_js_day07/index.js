@@ -10,7 +10,7 @@ if (!req.query.age || req.query.age<18){
     next()
 }
 }
-
+// 
 app.use(checkAge)
 
 app.get("/", (req, res) => {

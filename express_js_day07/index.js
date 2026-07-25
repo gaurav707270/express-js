@@ -6,7 +6,7 @@ const checkAge = (req,res,next) =>{
 if (!req.query.age || req.query.age<18){
     res.send("you cant access this is page")
 }
-// else{
+else{
     next()
 }
 }

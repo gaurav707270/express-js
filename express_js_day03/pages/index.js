@@ -4,7 +4,7 @@ import home from "./home.js";
 const app = express();
 
 app.get("/", (req, res) => {
-    // res.send(home())
+    res.send(home())
 })
 
 app.listen(4000, () => {

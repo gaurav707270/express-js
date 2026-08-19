@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
     res.send("<h1> this is home page base node js and express js example<h1/>")
 })
 
-// app.get("/about", (req, res) => {
+app.get("/about", (req, res) => {
     res.send("<h1> this is about page<h1/>")
 // })
 

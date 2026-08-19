@@ -16,4 +16,4 @@ app.get("/contact", (req, res) => {
 
 
 
-// app.listen(3200)
+app.listen(3200)

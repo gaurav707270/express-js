@@ -1,4 +1,4 @@
-// const home = () => {
+const home = () => {
     return " Home Page"
 }
 

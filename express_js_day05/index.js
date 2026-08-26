@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-    // res.send("<h1> home  page</h1>")
+    res.send("<h1> home  page</h1>")
 })
 
 app.get("/login", (req, res) => {

@@ -2,7 +2,7 @@
 
 const app = express();
 
-app.get("/", (req, res) => {
+// app.get("/", (req, res) => {
     res.send("<h1> home  page</h1>")
 })
 

@@ -10,7 +10,7 @@
     res.send(`
         <form action="/signup" method="post">
         <h1> Lodin Form</h1>
-        // <input type="email" placeholder="enter the email" />
+        <input type="email" placeholder="enter the email" />
         <input type="password" placeholder="enter the password" />
         <button>Login</button>
         </form>`)

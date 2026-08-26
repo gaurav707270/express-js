@@ -6,7 +6,7 @@
     // res.send("<h1> home  page</h1>")
 })
 
-// app.get("/login", (req, res) => {
+app.get("/login", (req, res) => {
     res.send(`
         <form action="/signup" method="post">
         <h1> Lodin Form</h1>

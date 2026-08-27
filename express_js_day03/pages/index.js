@@ -1,7 +1,7 @@
 // import express from "express";
 // import home from "./home.js";
 
-const app = express();
+// const app = express();
 
 app.get("/", (req, res) => {
     // res.send(home())

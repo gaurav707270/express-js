@@ -5,7 +5,7 @@
 // 
 // app.set("view engine", "ejs");
 app.set("views", "./views");
-
+// 
 const url = "mongodb://localhost:27017";
 const dbName = "userList";
 

@@ -13,7 +13,7 @@ const dbName = "userList";
 
 // const dbConnection = async () => {
     try {
-        // await client.connect();
+        await client.connect();
         console.log("Database connected");
     } catch (err) {
         console.log(err);

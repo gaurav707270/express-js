@@ -2,7 +2,7 @@ import express from "express";
 import { MongoClient } from "mongodb";
 
 const app = express();
-// 
+
 app.set("view engine", "ejs");
 app.set("views", "./views");
 

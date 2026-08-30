@@ -24,6 +24,6 @@
 // app.use((req,res) =>{
     // res.status(404).sendFile(absPath + "/404.Html")
 
-})
+// })
 
 app.listen(3000)

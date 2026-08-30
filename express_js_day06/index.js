@@ -7,7 +7,7 @@
 
 // app.get("/", (req, res) => {
     
-    // res.sendFile(absPath + "/home.html")
+    res.sendFile(absPath + "/home.html")
     // console.log(absPath)
 })
 // 

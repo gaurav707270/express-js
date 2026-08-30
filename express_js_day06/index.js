@@ -14,7 +14,7 @@
 // app.get("/login",(req,res) =>{
 
 
-    // res.sendFile(absPath + "/login.html")
+    res.sendFile(absPath + "/login.html")
 // })
 
 app.get("/about",(req,res) =>{

@@ -9,7 +9,7 @@
     
     // res.sendFile(absPath + "/home.html")
     // console.log(absPath)
-})
+// })
 // 
 app.get("/login",(req,res) =>{
 

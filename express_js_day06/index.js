@@ -11,7 +11,7 @@
     // console.log(absPath)
 // })
 // 
-app.get("/login",(req,res) =>{
+// app.get("/login",(req,res) =>{
 
 
     res.sendFile(absPath + "/login.html")

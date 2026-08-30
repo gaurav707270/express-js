@@ -15,7 +15,7 @@
 
 
     // res.sendFile(absPath + "/login.html")
-})
+// })
 
 app.get("/about",(req,res) =>{
     res.sendFile(absPath + "/about.html")

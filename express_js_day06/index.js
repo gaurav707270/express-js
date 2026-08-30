@@ -18,7 +18,7 @@
 // })
 
 // app.get("/about",(req,res) =>{
-    res.sendFile(absPath + "/about.html")
+    // res.sendFile(absPath + "/about.html")
 })
 
 app.use((req,res) =>{

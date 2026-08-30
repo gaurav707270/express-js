@@ -19,7 +19,7 @@
 
 app.get("/about",(req,res) =>{
     // res.sendFile(absPath + "/about.html")
-// })
+})
 
 // app.use((req,res) =>{
     res.status(404).sendFile(absPath + "/404.Html")

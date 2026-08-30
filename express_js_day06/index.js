@@ -22,7 +22,7 @@
 // })
 
 // app.use((req,res) =>{
-    // res.status(404).sendFile(absPath + "/404.Html")
+    res.status(404).sendFile(absPath + "/404.Html")
 
 // })
 

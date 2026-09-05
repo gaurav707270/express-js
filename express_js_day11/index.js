@@ -11,7 +11,7 @@ const dbName = "userList";
 
 const client = new MongoClient(url);
 
-// const dbConnection = async () => {
+const dbConnection = async () => {
     // try {
         await client.connect();
         console.log("Database connected");

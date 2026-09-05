@@ -18,7 +18,7 @@ const dbConnection = async () => {
     } catch (err) {
         console.log(err);
     }
-// };
+};
 
 dbConnection();
 

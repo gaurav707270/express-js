@@ -19,7 +19,7 @@ const dbConnection = async () => {
         console.log(err);
     }
 // };
-// 
+
 dbConnection();
 
 app.get("/", async (req, res) => {

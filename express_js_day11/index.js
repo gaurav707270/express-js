@@ -3,7 +3,7 @@ import { MongoClient } from "mongodb";
 
 const app = express();
 
-app.set("view engine", "ejs");
+// app.set("view engine", "ejs");
 app.set("views", "./views");
 
 const url = "mongodb://localhost:27017";

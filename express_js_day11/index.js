@@ -20,7 +20,7 @@ const dbConnection = async () => {
     }
 // };
 // 
-// dbConnection();
+dbConnection();
 
 app.get("/", async (req, res) => {
     const db = client.db(dbName);

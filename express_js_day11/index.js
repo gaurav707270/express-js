@@ -14,7 +14,7 @@
 // const dbConnection = async () => {
     // try {
         // await client.connect();
-        console.log("Database connected");
+        console.log("Database connected");/
     // } catch (err) {
         // console.log(err);
     }

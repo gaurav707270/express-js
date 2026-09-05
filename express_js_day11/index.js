@@ -15,7 +15,7 @@
     // try {
         // await client.connect();
         console.log("Database connected");
-    } catch (err) {
+    // } catch (err) {
         // console.log(err);
     }
 // };

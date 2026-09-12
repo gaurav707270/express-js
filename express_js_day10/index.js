@@ -10,7 +10,7 @@ const client = new MongoClient(url);
 
 app.set("view engine", "ejs");
 
-// Connect Database Once
+Connect Database Once
 async function dbConnection() {
     try {
         await client.connect();

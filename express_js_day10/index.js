@@ -16,7 +16,7 @@ async function dbConnection() {
         await client.connect();
         console.log("MongoDB Connected");
     } catch (err) {
-        console.log(err);
+        // console.log(err);
     }
 }
 

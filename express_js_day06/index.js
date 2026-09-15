@@ -3,7 +3,7 @@ import path from "path"
 
 // const app = express();
 
-const absPath = path.resolve("pages")
+// const absPath = path.resolve("pages")
 
 app.get("/", (req, res) => {
     

@@ -5,7 +5,7 @@ import path from "path"
 
 // const absPath = path.resolve("pages")
 
-app.get("/", (req, res) => {
+// app.get("/", (req, res) => {
     
     // res.sendFile(absPath + "/home.html")
     console.log(absPath)

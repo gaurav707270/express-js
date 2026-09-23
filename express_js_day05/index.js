@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 
 app.get("/login", (req, res) => {
     // res.send(`
-        // <form action="/signup" method="post">
+        <form action="/signup" method="post">
         <h1> Lodin Form</h1>
         <input type="email" placeholder="enter the email" />
         <input type="password" placeholder="enter the password" />
